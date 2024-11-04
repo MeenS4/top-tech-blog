@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap");
+
+.text {
+  font-family: "Sofia Sans", sans-serif;
+
+  &--16px {
+    font-size: 16px;
+    font-weight: 400;
+
+    &--400 {
+      font-weight: 400;
+    }
+  }
+
+  &--20px {
+    font-size: 20px;
+    font-weight: 400;
+
+    &--400 {
+      font-weight: 400;
+    }
+
+    &--600 {
+      font-weight: 600;
+    }
+  }
+
+  &--24px {
+    font-size: 24px;
+    font-weight: 400;
+
+    &--400 {
+      font-weight: 400;
+    }
+
+    &--600 {
+      font-weight: 600;
+    }
+  }
+
+  &--32px {
+    font-size: 32px;
+    font-weight: 600;
+
+    &--600 {
+      font-weight: 600;
+    }
+
+    &--700 {
+      font-weight: 700;
+    }
+  }
+
+  &--48px {
+    font-size: 48px;
+    font-weight: 600;
+
+    &--600 {
+      font-weight: 600;
+    }
+  }
+}
