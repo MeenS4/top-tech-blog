@@ -1,10 +1,13 @@
 import styles from "./home-view.module.scss";
 
 import { PostCard } from "../components/post-card";
+import { Navbar } from "@/lib/shared/sections/navbar";
 
 export const HomeView = () => {
   return (
     <main className={styles["home-view"]}>
+      <Navbar />
+
       <div className={styles["home-view__cards"]}>
         <PostCard
           title="Monitor Dla Wymagających"
