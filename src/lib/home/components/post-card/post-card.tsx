@@ -3,8 +3,6 @@ import { FontSizes, FontWeights, Text } from "@/lib/shared/components/text";
 import { PostTag } from "../post-tag";
 import { Image } from "@/lib/shared/components/image";
 
-//TODO: Change hard-coded image src to dynamic prop value
-
 export const PostCard = ({
   title,
   tags,
