@@ -27,7 +27,7 @@ export const PostCard = ({
 
         <div className={styles["post-card__content__tags"]}>
           {tags.map((e) => (
-            <PostTag content={e} />
+            <PostTag key={e} content={e} />
           ))}
         </div>
       </div>
