@@ -3,6 +3,8 @@ import styles from "./home-view.module.scss";
 import { PostCard } from "../components/post-card";
 import { Navbar } from "@/lib/shared/sections/navbar";
 import { PostTile } from "../components/post-tile";
+import { HeroPost } from "../components/hero-post";
+import { FontSizes, FontWeights, Text } from "@/lib/shared/components/text";
 
 const postCardData = [
   {
@@ -69,6 +71,12 @@ export const HomeView = () => {
     <main className={styles["home-view"]}>
       <Navbar />
 
+      <HeroPost
+        title={"Sztuczna Inteligencja w Biznesie"}
+        tags={["Finanse", "AI", "Biznes"]}
+        image="hero-cover.jpg"
+      />
+
       <div className={styles["home-view__cards"]}>
         {postCardData.map((post) => (
           <PostCard
@@ -79,6 +87,14 @@ export const HomeView = () => {
           />
         ))}
       </div>
+
+      <Text
+        className={styles["home-view__tile-title"]}
+        size={FontSizes["32px"]}
+        weight={FontWeights.bold}
+      >
+        Inne Posty
+      </Text>
 
       <div className={styles["home-view__tiles"]}>
         {postTileData.map((post) => (
