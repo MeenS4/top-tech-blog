@@ -1,0 +1,30 @@
+.post-tile {
+  height: 135px;
+
+  display: flex;
+  gap: 16px;
+
+  background-color: #242424;
+  border-radius: 8px;
+
+  &__image {
+    flex: 1;
+
+    border-radius: 8px 0px 0px 8px;
+  }
+
+  &__content {
+    flex: 3;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding-block: 16px;
+
+    &__tags {
+      display: flex;
+      gap: 8px;
+    }
+  }
+}

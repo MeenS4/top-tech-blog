@@ -16,4 +16,13 @@
     display: flex;
     gap: 16px;
   }
+
+  &__tiles {
+    margin-top: 32px;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 16px;
+  }
 }
